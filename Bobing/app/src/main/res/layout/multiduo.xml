@@ -1,0 +1,133 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="@drawable/bg"
+    >
+
+<!--    <Button-->
+<!--        android:id="@+id/shouye"-->
+<!--        android:layout_width="182dp"-->
+<!--        android:layout_height="72dp"-->
+<!--        android:layout_alignParentLeft="true"-->
+<!--        android:layout_alignParentBottom="true"-->
+<!--        android:layout_marginLeft="-19dp"-->
+<!--        android:layout_marginBottom="587dp"-->
+<!--        android:background="#00000000"-->
+<!--        android:text=""-->
+<!--        tools:ignore="MissingConstraints" />-->
+
+<!--    <Button-->
+<!--        android:id="@+id/again"-->
+<!--        android:layout_width="185dp"-->
+<!--        android:layout_height="79dp"-->
+<!--        android:layout_alignParentLeft="true"-->
+<!--        android:layout_alignParentBottom="true"-->
+<!--        android:layout_marginLeft="226dp"-->
+<!--        android:layout_marginBottom="0dp"-->
+<!--        android:background="#00000000"-->
+<!--        android:text=""-->
+<!--        tools:ignore="MissingConstraints" />-->
+
+
+    <Button
+        android:id="@+id/roll_button"
+
+        android:layout_width="match_parent"
+        android:layout_height="132dp"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginLeft="-1dp"
+        android:layout_marginBottom="122dp"
+        android:background="#00000000"
+        tools:ignore="MissingConstraints" />
+
+    <ImageView
+        android:id="@+id/dice_image1"
+        android:layout_width="142dp"
+        android:layout_height="129dp"
+        android:layout_alignParentBottom="true"
+        android:layout_marginStart="2dp"
+        android:layout_marginLeft="2dp"
+        android:layout_marginBottom="368dp"
+        android:layout_toEndOf="@+id/dice_image5"
+        android:layout_toRightOf="@+id/dice_image5"
+        android:src="@drawable/empty_dice"
+        tools:ignore="MissingConstraints" />
+
+    <ImageView
+        android:id="@+id/dice_image2"
+        android:layout_width="145dp"
+        android:layout_height="130dp"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginLeft="-14dp"
+        android:layout_marginBottom="236dp"
+        android:src="@drawable/empty_dice"
+        tools:ignore="MissingConstraints" />
+
+    <ImageView
+        android:id="@+id/dice_image3"
+        android:layout_width="140dp"
+        android:layout_height="130dp"
+        android:layout_alignParentBottom="true"
+        android:layout_marginStart="8dp"
+        android:layout_marginLeft="8dp"
+        android:layout_marginBottom="241dp"
+        android:layout_toEndOf="@+id/dice_image2"
+        android:layout_toRightOf="@+id/dice_image2"
+        android:src="@drawable/empty_dice"
+        tools:ignore="MissingConstraints" />
+
+    <ImageView
+        android:id="@+id/dice_image4"
+        android:layout_width="131dp"
+        android:layout_height="133dp"
+        android:layout_alignParentBottom="true"
+        android:layout_marginStart="-6dp"
+        android:layout_marginLeft="-6dp"
+        android:layout_marginBottom="366dp"
+        android:layout_toEndOf="@+id/dice_image1"
+        android:layout_toRightOf="@+id/dice_image1"
+        android:src="@drawable/empty_dice"
+        tools:ignore="MissingConstraints" />
+
+    <ImageView
+        android:id="@+id/dice_image5"
+        android:layout_width="148dp"
+        android:layout_height="134dp"
+        android:layout_above="@+id/dice_image2"
+        android:layout_alignParentLeft="true"
+        android:layout_marginLeft="-1dp"
+        android:layout_marginBottom="0dp"
+        android:src="@drawable/empty_dice"
+        tools:ignore="MissingConstraints" />
+
+    <ImageView
+        android:id="@+id/dice_image6"
+        android:layout_width="wrap_content"
+        android:layout_height="133dp"
+        android:layout_alignParentBottom="true"
+        android:layout_marginStart="1dp"
+        android:layout_marginLeft="1dp"
+        android:layout_marginBottom="236dp"
+        android:layout_toEndOf="@+id/dice_image3"
+        android:layout_toRightOf="@+id/dice_image3"
+        android:src="@drawable/empty_dice"
+        tools:ignore="MissingConstraints" />
+
+    <TextView
+        android:id="@+id/array"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerInParent="true"
+        android:background="#EBFAF9F9"
+        android:textColor="#3A3636"
+        android:textSize="25dp"
+        android:typeface="serif" />
+
+
+</RelativeLayout>
+

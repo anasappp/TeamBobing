@@ -1,0 +1,7 @@
+<resources>
+    <string name="app_name">shushu bobing</string>
+    <string name="btn_test">test</string>
+    <string name="edt_test">   please input the value</string>
+    <string name="tv_show">the value of input :</string>
+
+</resources>

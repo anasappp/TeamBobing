@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/duoren"
+    tools:context=".startgame">
+
+    <Button
+        android:id="@+id/fanhui"
+        android:layout_width="182dp"
+        android:layout_height="72dp"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginLeft="-19dp"
+        android:layout_marginBottom="587dp"
+        android:background="#00000000"
+        android:text=""
+        tools:ignore="MissingConstraints" />
+
+    <EditText
+        android:id="@+id/edt_test"
+        android:layout_width="wrap_content"
+        android:layout_height="60dp"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginLeft="118dp"
+        android:layout_marginBottom="276dp"
+        android:hint="@string/edt_test"
+        android:inputType="number"
+        android:textSize="18sp" />
+
+    <Button
+        android:id="@+id/jinru"
+        android:layout_width="153dp"
+        android:layout_height="36dp"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginLeft="125dp"
+        android:layout_marginBottom="161dp"
+        android:background="#00000000"
+        android:text=""
+        tools:ignore="MissingConstraints" />
+</RelativeLayout>

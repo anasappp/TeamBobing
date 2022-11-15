@@ -1,0 +1,125 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    package="com.example.myapplication"
+    tools:ignore="ExtraText">
+
+    <application
+        android:allowBackup="true"
+        android:icon="@drawable/shushu"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/Theme.MyApplication">
+
+        <activity
+            android:name=".duoren"
+            android:exported="false" />
+        <activity
+            android:name=".multi"
+            android:exported="false" />
+        <activity
+            android:name=".chajinhua"
+            android:exported="false" />
+        <activity
+            android:name=".chajinhuaduo"
+            android:exported="false" />
+        <activity
+            android:name=".bangyan"
+            android:exported="false" />
+        <activity
+            android:name=".bangyanduo"
+            android:exported="false" />
+        <activity
+            android:name=".biandijin"
+            android:exported="false" />
+        <activity
+            android:name=".biandijinduo"
+            android:exported="false" />
+        <activity
+            android:name=".heiliubo"
+            android:exported="false" />
+        <activity
+            android:name=".heiliuboduo"
+            android:exported="false" />
+        <activity
+            android:name=".hongliubo"
+            android:exported="false" />
+        <activity
+            android:name=".hongliuboduo"
+            android:exported="false" />
+        <activity
+            android:name=".jinshi"
+            android:exported="false" />
+        <activity
+            android:name=".jinshiduo"
+            android:exported="false" />
+        <activity
+            android:name=".juren"
+            android:exported="false" />
+        <activity
+            android:name=".jurenduo"
+            android:exported="false" />
+        <activity
+            android:name=".sihong"
+            android:exported="false" />
+        <activity
+            android:name=".sihongduo"
+            android:exported="false" />
+        <activity
+            android:name=".tanhua"
+            android:exported="false" />
+        <activity
+            android:name=".tanhuaduo"
+            android:exported="false" />
+        <activity
+            android:name=".wuhong"
+            android:exported="false" />
+        <activity
+            android:name=".wuhongduo"
+            android:exported="false" />
+        <activity
+            android:name=".wu"
+            android:exported="false" />
+        <activity
+            android:name=".wuduo"
+            android:exported="false" />
+        <activity
+            android:name=".wuzi"
+            android:exported="false" />
+        <activity
+            android:name=".wuziduo"
+            android:exported="false" />
+        <activity
+            android:name=".xiucai"
+            android:exported="false" />
+        <activity
+            android:name=".xiucaiduo"
+            android:exported="false" />
+        <activity
+            android:name=".rule2"
+            android:exported="false" />
+        <activity
+            android:name=".rule1"
+            android:exported="false" />
+        <activity
+            android:name=".origin"
+            android:exported="false" />
+        <activity
+            android:name=".choooooose"
+            android:exported="false" />
+        <activity
+            android:name=".singlegame"
+            android:exported="false" />
+        <activity
+            android:name=".startgame"
+            android:exported="true">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+    </application>
+
+</manifest>
